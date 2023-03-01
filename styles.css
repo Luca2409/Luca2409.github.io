@@ -1,0 +1,160 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: Roboto Condensed;
+    color: black;
+    background-color: white;
+}
+
+.start {
+    height: 100vh;
+}
+
+.div2 {
+    margin-left: -5px;
+    display: inline-flex;
+    width: 100%;
+    justify-content: right;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: baseline;
+}
+
+.li1 {
+    display: inline-block;
+    margin-right: 34px;
+    text-decoration: none;
+    color: rgb(106, 100, 100);
+}
+
+.li1:hover {
+    opacity: 60%;
+    transition: 500ms;
+    cursor: pointer;
+}
+
+.center {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.divcenter1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+    height: 85vh;
+}
+
+.divcenter2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: right;
+    align-items: baseline;
+    height: 85vh;
+}
+
+.T1 {
+    margin-left: 50px;
+}
+
+.T2 {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+i {
+    font-size: 30px;
+    cursor: pointer;
+    margin-right: 50px;
+}
+
+.center2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.divcenter3 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 85vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.T3 {
+    margin-left: 50px;
+    font-size: 48px;
+}
+
+.divcenter4 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.T4 {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.center3 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.divcenter5 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 85vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.divcenter6 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 85vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.T3 {
+    margin-left: 50px;
+    font-size: 48px;
+}
+
+.T4 {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.explore:hover {
+    opacity: 60%;
+    transition: 500ms;
+    cursor: pointer;
+}
+
+.CV {
+    border-radius: 5px;
+    color: white;
+    font-family: Roboto Condensed;
+    background-color: black;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 25px;
+    padding-left: 25px;
+    transition: 300ms ease-in-out;
+}
